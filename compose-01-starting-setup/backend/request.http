@@ -1,0 +1,13 @@
+GET http://localhost/goals
+
+###
+POST http://localhost/goals
+content-type: application/json
+
+{
+  "text": "Olá mundo!"
+}
+
+###
+
+DELETE http://localhost/goals/61376fcd6a8a5600203297dc
